@@ -50,3 +50,15 @@ def bubble_sort_desc(nums):
 
 print(bubble_sort_desc(nums))
 
+
+a = [12,5,6,9,2,9,3,5,6,4,5,6,1,6,2,6,2]
+
+b= [i for i in a if i==2]
+print(b)
+b= [i for i in range(5) if i < 5]
+print(b)
+
+a.sort()
+print(a)
+
+print(sorted(a))
