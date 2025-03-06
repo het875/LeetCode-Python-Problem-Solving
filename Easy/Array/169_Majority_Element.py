@@ -38,13 +38,24 @@ class Solution:
 
 
         #solutions 2:
-        val = 0
-        maj = None
-        for num in nums:
-            if val == 0:
-                maj = num
-            if num == maj:
-                val += 1
-            else:
-                val -= 1
-        return maj
+
+        # val = 0
+        # maj = None
+        # for num in nums:
+        #     if val == 0:
+        #         maj = num
+        #     if num == maj:
+        #         val += 1
+        #     else:
+        #         val -= 1
+        # return maj
+
+
+
+
+
+        #Solutins 3
+
+        nums.sort()
+        num_amount = len(nums)
+        return nums[num_amount//2]
