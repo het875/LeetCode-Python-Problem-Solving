@@ -117,7 +117,7 @@ check_frequency(numbers)
 
 
 
-@#. Using a dictionary and all() function
+#. Using a dictionary and all() function
 
 def check_frequency(numbers):
     frequency = {}
