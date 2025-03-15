@@ -20,7 +20,7 @@ Input: nums = [2,2,1,1,1,2,2]
 
 
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums):
         # dic = {}
         
         # for i in nums:

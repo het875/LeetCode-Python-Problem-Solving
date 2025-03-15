@@ -2,8 +2,8 @@
 nums = [1,1,2]
 
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
-        #Solution 1 with 100 % beat 
+    def removeDuplicates(self, nums ) :
+           #Solution 1 with 100 % beat 
         # if len(nums) == 0 :
         #     return 0
         
